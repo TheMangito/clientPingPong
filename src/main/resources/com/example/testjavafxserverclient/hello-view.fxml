@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane fx:id="panel" prefHeight="400.0" prefWidth="919.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testjavafxserverclient.HelloController">
+
+   <Pane fx:id="player2" layoutX="905.0" layoutY="152.0" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: black" />
+   <Rectangle fx:id="player1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="97.0" layoutY="152.0" stroke="BLACK" strokeType="INSIDE" width="14.0" />
+   <Label fx:id="player1score" layoutX="198.0" layoutY="89.0" prefHeight="161.0" prefWidth="65.0" style="-fx-text-alignment: center; -fx-font-size: 150; -fx-font-family: 'Arial Black'; -fx-text-fill: rgba(0,0,0,0.36)" text="0" />
+   <Label fx:id="player2score" layoutX="604.0" layoutY="89.0" prefHeight="161.0" prefWidth="65.0" style="-fx-text-alignment: center; -fx-font-size: 150; -fx-font-family: 'Arial Black'; -fx-text-fill: rgba(0,0,0,0.36)" text="0" />
+   <Pane layoutX="433.0" layoutY="1.0" prefHeight="400.0" prefWidth="14.0" style="-fx-background-color: rgba(0,0,0,0.09)" AnchorPane.bottomAnchor="-1.0" AnchorPane.topAnchor="1.0" />
+   <Label layoutX="234.0" layoutY="263.0" style="-fx-text-fill: rgba(0,0,0,0.62)" text="Score" />
+   <Label layoutX="640.0" layoutY="263.0" style="-fx-text-fill: rgba(0,0,0,0.62)" text="Score" />
+   <Label fx:id="winner" layoutX="101.0" layoutY="14.0" prefHeight="112.0" prefWidth="712.0" style="-fx-text-alignment: center; -fx-font-size: 75; -fx-font-family: 'Arial Black'; -fx-text-fill: rgba(0,0,0,0.36)" text="PLAYER  1 WINS!" visible="false" />
+   <Button layoutX="939.0" layoutY="-46.0" mnemonicParsing="false" onAction="#start" prefHeight="9.0" prefWidth="14.0" text="Button" />
+
+</AnchorPane>
